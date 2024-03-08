@@ -16,7 +16,7 @@ public class Ejemplo3_7 {
         P= RH.nextFloat();
         System.out.println("Ingrese los kilos de produccion :");
         K=RH.nextInt();
-        if (TI=="A"){
+        if (TI.equals("A")){
             if (TA==1){
                 P=P+P1;
             }else{
